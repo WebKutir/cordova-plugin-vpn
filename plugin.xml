@@ -64,7 +64,7 @@
                     <action android:name="android.net.VpnService" />
                 </intent-filter>
             </service>
-            <meta-data android:name="allowWiFi" android:value="$ALLOWWIFI" />
+            <meta-data android:name="allowWiFi" android:value="true" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/*">
