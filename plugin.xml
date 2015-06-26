@@ -12,7 +12,7 @@
 
     <license>MIT</license>
     <keywords>cordova,vpn</keywords>
-    <preference name="ALLOWWIFI" />
+    
 
     <js-module src="www/VPNManager.js" name="VPNManager">
         <clobbers target="window.plugins.VPNManager" />
@@ -29,7 +29,7 @@
         </config-file>
 
         <config-file target="*-Info.plist" parent="AllowWiFi">
-            <string>$ALLOWWIFI</string>
+            <string>true</string>
         </config-file>
 
         <framework src="NetworkExtension.framework" />
